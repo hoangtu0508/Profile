@@ -19,7 +19,7 @@ const Intro = () => {
         <p className='mt-6'>Follow Me:</p>
         <div className='flex mt-6'>
           <span className='p-1.5 rounded-3xl border-2 bg-gray-200 mr-3'><AiOutlineSkype className='w-5 h-5' /></span>
-          <Link to="https://www.facebook.com/profile.php?id=100024612949099"><span className='p-1.5 rounded-3xl border-2 bg-gray-200 mr-3'><CiFacebook className='w-5 h-5' /></span></Link>
+          <span className='p-1.5 rounded-3xl border-2 bg-gray-200 mr-3'><Link to="https://www.facebook.com/profile.php?id=100024612949099"><CiFacebook className='w-5 h-5' /></Link></span>
           <span className='p-1.5 rounded-3xl border-2 bg-gray-200 mr-3'><AiOutlineInstagram className='w-5 h-5' /></span>
           <span className='p-1.5 rounded-3xl border-2 bg-gray-200 mr-3'><AiFillGithub className='w-5 h-5' /></span>
         </div>
