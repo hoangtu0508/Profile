@@ -15,7 +15,7 @@ const Nav = () => {
         <div 
             className="
                 flex items-center justify-center h-10 text-center rounded-3xl shadow-lg px-5 bg-white fixed text-sm w-full 
-                xl:w-1/3 xl:left-1/2 xl:transform xl:-translate-x-1/2 xl:text-base
+                lg:w-1/3 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:text-base
             "
         >
             <div className='w-1/6'><Link to='/'>Home</Link></div>
