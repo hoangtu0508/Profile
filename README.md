@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# React Profile THT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/hoangtu0508/Profile/assets/73875963/c57cd99b-cf40-4678-aef5-ea691a5aa4c4)
 
-## Available Scripts
+## Live demo
 
-In the project directory, you can run:
+Click here: [https://profile-zeta-ruby.vercel.app/]
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 🖥️ Telas:
+#### Home Page
+![image](https://github.com/hoangtu0508/Profile/assets/73875963/f8e0d417-e557-45d9-b54f-db46df496a15)
+#### About
+![image](https://github.com/hoangtu0508/Profile/assets/73875963/90c1b0d0-2f93-4a78-9e3e-5b624e8696aa)
+#### Skills
+![image](https://github.com/hoangtu0508/Profile/assets/73875963/962176ab-2012-4c5d-a5c2-82c8e57f3bab)
+#### My Word
+![image](https://github.com/hoangtu0508/Profile/assets/73875963/22d1a88d-3bba-47a5-8009-e96f39338ab3)
+#### Experience
+![image](https://github.com/hoangtu0508/Profile/assets/73875963/095cd736-d86c-4b7c-8c1a-9e962e99e064)
+![image](https://github.com/hoangtu0508/Profile/assets/73875963/234c3e03-82d3-4347-bb4e-8ea715a5b407)
+#### Contact
+![image](https://github.com/hoangtu0508/Profile/assets/73875963/64b374a5-3089-4879-9685-c408267c5f49)
+### 📚 Getting started
+#### Step 1: Clone the repository
+git clone https://github.com/hoangtu0508/Profile.git
+#### Step 2: Install Node.js dependencies
+npm install
+#### Step 3: 
+npm run start
