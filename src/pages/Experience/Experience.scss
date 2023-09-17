@@ -1,0 +1,246 @@
+.Experience {
+    background-color: #efe1bd;
+    padding: 30px 0;
+
+    .tl {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .tl::after {
+        content: "";
+        position: absolute;
+        width: 6px;
+        background-color: #fff;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+    }
+
+    .tl-container {
+        padding: 10px 60px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+
+
+    }
+
+    .tl-left {
+        left: 0;
+
+        span {
+            right: -90px;
+            padding: 5px;
+            border: 6px solid white;
+            border-radius: 50%;
+            background-color: #ae944f;
+            z-index: 2;
+
+            .icon {
+                color: #61dbfb;
+            }
+        }
+
+        h4 {
+            right: -250px;
+            top: 10px;
+            border-radius: 50%;
+            z-index: 2;
+        }
+    }
+
+    .tl-right {
+        left: 50%;
+
+        span {
+            left: -90px;
+            padding: 5px;
+            border: 6px solid white;
+            border-radius: 50%;
+            background-color: #ae944f;
+            z-index: 2;
+
+            .icon {
+                color: #61dbfb;
+            }
+        }
+
+        h4 {
+            left: -250px;
+            top: 10px;
+            border-radius: 50%;
+            z-index: 2;
+        }
+    }
+
+    .tl-hour {
+        left: 0%;
+
+        span {
+            right: -90px;
+            padding: 5px;
+            border: 6px solid white;
+            border-radius: 50%;
+            background-color: #ae944f;
+            z-index: 2;
+
+            .icon {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+
+    .tl-left::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        right: 46px;
+        border: medium solid #fff;
+        border-width: 15px 0 15px 15px;
+        border-color: transparent transparent transparent #fff;
+    }
+
+    .tl-right::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        left: 46px;
+        border: medium solid #fff;
+        border-width: 15px 15px 15px 0;
+        border-color: transparent #fff transparent transparent;
+    }
+
+    .tl-right::after {
+        left: -16px;
+    }
+
+    .tl-content {
+        padding: 20px 30px;
+        background-color: #fff;
+        position: relative;
+        border-radius: 6px;
+
+        .left-content h2 {
+            background-color: #ae944f;
+            color: white;
+        }
+
+        .react {
+            background-color: #f9f5e9;
+            justify-content: center;
+            align-items: center;
+
+            .icon-react {
+
+                color: #61dbfb;
+            }
+        }
+
+
+    }
+
+
+
+
+    @media screen and (max-width: 600px) {
+        .tl::after {
+            left: 31px;
+        }
+
+        .tl-container {
+            width: 100%;
+            padding-left: 70px;
+            padding-right: 25px;
+
+            .tl-content {
+                h4 {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .tl-container::before {
+            left: 60px;
+            border: medium solid #fff;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent #fff transparent transparent;
+        }
+
+        .tl-left::after,
+        .tl-right::after {
+            left: 15px;
+        }
+
+        .tl-left {
+            left: 0%;
+
+            span {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                left: -60px;
+                top: 0px;
+                border-radius: 50%;
+                z-index: 1;
+
+                .icon {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+
+        }
+
+        .tl-right {
+            left: 0%;
+
+            span {
+                left: -60px;
+                padding: 5px;
+                border: 6px solid white;
+                border-radius: 50%;
+                background-color: #ae944f;
+                z-index: 2;
+
+                .icon {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+
+        .tl-hour {
+            left: 0%;
+
+            span {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                left: -60px;
+                top: 0px;
+                border-radius: 50%;
+                z-index: 1;
+
+                .icon {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+
+        }
+
+        
+    }
+
+
+}
