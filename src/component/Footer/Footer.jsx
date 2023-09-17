@@ -13,7 +13,7 @@ const Footer = () => {
           <label className='text-oranger font-medium text-base'>I WANT TO HEAR FROM YOU</label>
           <h1 className='lg:text-4xl font-bold mt-3 text-2xl'>Contact Me</h1>
         </div>
-        <div className="grid grid-cols-3 w-11/12 mx-auto py-10 items-center">
+        <div className="grid lg:grid-cols-3 w-11/12 mx-auto py-10 items-center">
           <div className="flex items-center w-full mb-4">
             <span className='p-6 rounded-full bg-green-100 mr-5'><BiSolidPhoneCall className='text-green-500 w-10 h-10' /></span>
             <div>

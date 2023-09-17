@@ -1,10 +1,11 @@
 import React from 'react'
 import './Experience.scss'
-import { BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoSass, BiLogoTailwindCss } from 'react-icons/bi'
+import { BiLogoCss3, BiLogoJavascript,BiLogoReact, BiLogoSass, BiLogoTailwindCss } from 'react-icons/bi'
 import { SiSolidity, SiStrapi } from 'react-icons/si'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { BsStripe } from 'react-icons/bs'
 import {FaHourglassHalf} from 'react-icons/fa'
+import {TbBrandNextjs} from 'react-icons/tb'
 
 const Experience = () => {
     return (
@@ -17,9 +18,9 @@ const Experience = () => {
             <div class="tl">
                 <div class="tl-container tl-left">
                     <div class="tl-content">
-                        <span className='absolute top-0'><BiLogoReact className='icon w-10 h-10' /></span>
+                        <span className='absolute top-0'><TbBrandNextjs className='w-10 h-10' /></span>
                         <div className="left-content">
-                            <h2 className='p-1 border-2 w-1/3 rounded-2xl text-center' >React</h2>
+                            <h2 className='p-1 border-2 w-1/3 rounded-2xl text-center' >Next</h2>
                             <h1 className='lg:text-xl font-bold mt-3 text-2xl'>
                                 Project
                             </h1>
@@ -40,8 +41,8 @@ const Experience = () => {
                                     <h3 className='ml-2 text-xs' >Javascript</h3>
                                 </div>
                                 <div className="react w-auto flex p-0.5 border-2 rounded-2xl text-center">
-                                    <BiLogoReact className='icon-react w-5 h-5' />
-                                    <h3 className='ml-2 text-xs' >React</h3>
+                                    <TbBrandNextjs className=' w-5 h-5' />
+                                    <h3 className='ml-2 text-xs' >Next</h3>
                                 </div>
                                 <div className="react w-auto flex p-0.5 border-2 rounded-2xl text-center">
                                     <SiSolidity className=' w-5 h-5' />
