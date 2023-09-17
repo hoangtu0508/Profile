@@ -18,7 +18,7 @@ const Experience = () => {
             <div class="tl">
                 <div class="tl-container tl-left">
                     <div class="tl-content">
-                        <span className='absolute top-0'><TbBrandNextjs className='w-10 h-10' /></span>
+                        <span className='absolute top-0'><TbBrandNextjs className='next' /></span>
                         <div className="left-content">
                             <h2 className='p-1 border-2 w-1/3 rounded-2xl text-center' >Next</h2>
                             <h1 className='lg:text-xl font-bold mt-3 text-2xl'>
@@ -41,7 +41,7 @@ const Experience = () => {
                                     <h3 className='ml-2 text-xs' >Javascript</h3>
                                 </div>
                                 <div className="react w-auto flex p-0.5 border-2 rounded-2xl text-center">
-                                    <TbBrandNextjs className=' w-5 h-5' />
+                                    <TbBrandNextjs className='next w-5 h-5' />
                                     <h3 className='ml-2 text-xs' >Next</h3>
                                 </div>
                                 <div className="react w-auto flex p-0.5 border-2 rounded-2xl text-center">
