@@ -27,13 +27,18 @@ const Skills = () => {
             img: 'https://img.icons8.com/color/48/null/react-native.png'
         },
         {
+            name: 'Next',
+            img: 'https://img.icons8.com/color/48/null/nextjs'
+        },
+        {
             name: 'Github',
             img: github
         },
         {
             name: 'Node.js',
             img: 'https://img.icons8.com/color/48/null/nodejs'
-        }
+        },
+        
 
 
     ]
